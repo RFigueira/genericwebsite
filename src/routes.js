@@ -8,6 +8,7 @@ import Portfolio from './pages/portfolio';
 import Pricing from './pages/pricing';
 import Contact from './pages/contact';
 import Dashboard from './manager/pages/dashboard';
+import Login from './manager/pages/login';
 
 const Routes = prost => {
     return (
@@ -22,6 +23,7 @@ const Routes = prost => {
                     <Route path="/pricing" component={Pricing} />
                     <Route path="/contact" component={Contact} />
                     <Route path="/gerenciador" component={Dashboard} />
+                    <Route path="/login" component={Login} />
                 </Switch>
             </div>
         </BrowserRouter>
